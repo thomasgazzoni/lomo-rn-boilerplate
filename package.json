@@ -36,7 +36,9 @@
     "release": "git checkout master && git pull origin master && standard-version -a",
     "release-push": "git push --follow-tags origin master",
     "postinstall": "./scripts/postinstall.sh",
-    "parrot": "parrot"
+    "parrot": "parrot",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
@@ -81,7 +83,8 @@
     "react-native-vector-icons": "6.1.0",
     "react-navigation": "2.11.2",
     "rxjs": "6.3.3",
-    "uuid": "3.3.2"
+    "uuid": "3.3.2",
+    "snyk": "^1.232.0"
   },
   "devDependencies": {
     "@babel/core": "7.1.6",
@@ -116,5 +119,6 @@
     "tslint-plugin-prettier": "2.0.1",
     "tslint-react": "3.6.0",
     "typescript": "3.1.6"
-  }
+  },
+  "snyk": true
 }
