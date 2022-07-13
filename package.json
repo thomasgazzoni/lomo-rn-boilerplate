@@ -68,7 +68,7 @@
     "mobx": "4.5.1",
     "mobx-react": "5.4.2",
     "mobx-state-tree": "^3.8.1",
-    "moment": "2.22.2",
+    "moment": "2.29.4",
     "parrot": "lomocoin/parrot#f55c4a0365f6253cfcb97a8be4811871b43a8a51",
     "react": "16.6.1",
     "react-i18next": "8.3.8",
