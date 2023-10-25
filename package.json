@@ -72,7 +72,7 @@
     "parrot": "lomocoin/parrot#f55c4a0365f6253cfcb97a8be4811871b43a8a51",
     "react": "16.6.1",
     "react-i18next": "8.3.8",
-    "react-native": "0.57.5",
+    "react-native": "0.62.0",
     "react-native-code-push": "5.4.2",
     "react-native-device-info": "0.24.3",
     "react-native-languages": "3.0.1",
