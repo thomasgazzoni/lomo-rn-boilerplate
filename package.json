@@ -63,7 +63,7 @@
     "appcenter": "1.10.0",
     "appcenter-analytics": "1.10.0",
     "appcenter-crashes": "1.10.0",
-    "axios": "0.19.0-beta.1",
+    "axios": "0.21.1",
     "i18next": "^12.1.0",
     "mobx": "4.5.1",
     "mobx-react": "5.4.2",
